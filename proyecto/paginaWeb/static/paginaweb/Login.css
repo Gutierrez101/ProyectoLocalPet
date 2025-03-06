@@ -123,6 +123,14 @@ body {
 .salir button:hover {
     background-color: #6b4229;
 }
+.container-start {
+    background-color: #8b5b2b;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 0px 15px;
+    flex-wrap: wrap;
+}
 
 /* Media Queries */
 @media (max-width: 768px) {
