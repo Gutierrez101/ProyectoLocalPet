@@ -6,7 +6,7 @@
       "use": "@vercel/static-build"
     },
     {
-      "src": "api/wsgi.py",
+      "src": "proyecto/proyecto/wsgi.py",
       "use": "@vercel/python"
     }
   ],
@@ -18,7 +18,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "api/wsgi.py"
+      "dest": "proyecto/proyecto/wsgi.py"
     }
   ]
 }
