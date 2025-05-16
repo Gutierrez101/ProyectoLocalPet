@@ -5,6 +5,7 @@
       "src": "build.sh",
       "use": "@vercel/static-build",
       "config": {
+        "buildCommand": "sh build.sh",
         "distDir": "staticfiles"
       }
     },
